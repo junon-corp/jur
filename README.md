@@ -1,4 +1,5 @@
-# Junon resources (jur)
+# jur
+Styles, logos and resources for Junon
 
 <p align="center">
     <img src="logo_square.png" width="250">
