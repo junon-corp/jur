@@ -1,0 +1,65 @@
+/*
+    This file is part of "jur"
+    Copyright (c) Junon, Antonin Hérault
+    All rights reserved
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: var(--text-color);
+    background-color: var(--primary-dark);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media screen and (orientation: landscape) {
+    body  {
+        padding: 0 8em;
+    }
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: underline;
+}
+
+a:visited {
+    color: var(--visited-link-color);
+}
+
+h1, h2, h3, h4 {
+    margin: .5em 0;
+}
+
+code, pre {
+    color: grey;
+    background-color: var(--primary-dark);
+}
+
+pre {
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+textarea {
+    color: lightgrey;
+    border-color: var(--primary);
+    border-radius: .5em;
+    background-color: var(--primary-dark);
+    margin: .5em 0 .5em 0;
+}

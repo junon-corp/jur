@@ -1,0 +1,25 @@
+/*
+    This file is part of "jur"
+    Copyright (c) Junon, Antonin Hérault
+    All rights reserved
+*/
+
+:root {
+    --primary-dark: #0d1117;
+    --primary: #094f62;
+    --secondary-dark: #090b0f;
+    --text-color: #0d738f;
+
+    --link-color: #0f82a1;
+    --visited-link-color: #0c6983;
+}
+
+::selection {
+    color: var(--primary-dark);
+    background-color: var(--text-color);
+}
+
+::-moz-selection {
+    color: var(--primary-dark);
+    background-color: var(--text-color);
+}
